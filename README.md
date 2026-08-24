@@ -85,6 +85,8 @@
 
 Selenium работает с Chromium в headless-режиме, поэтому отдельное графическое окно браузера для работы мониторинга не требуется.
 
+![Selenium и Python](screenshots/selenium-python.png)
+
 ### Chromium
 
 Браузер, которым управляет Selenium внутри контейнера. Используется реальный браузерный движок, поэтому проверяются не только HTTP-ответы, но и фактическое состояние пользовательского интерфейса.
@@ -101,9 +103,13 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 
 Использование Pushgateway связано с тем, что проверка является периодическим batch-сценарием: Python запускает тест, получает результат и передает его в Pushgateway.
 
+![Pushgateway](screenshots/pushgateway.png)
+
 ### Prometheus
 
 Собирает метрики из Pushgateway и хранит временной ряд для дальнейшего анализа.
+
+![Prometheus](screenshots/prometheus.png)
 
 ### Grafana
 
@@ -311,6 +317,8 @@ synthetic_step_success{step="..."}
 - `logout`.
 
 Они относятся к завершающей части сценария и не входят в `N0`.
+
+![Grafana Dashboard](screenshots/grafana-dashboard.png)
 
 ---
 
