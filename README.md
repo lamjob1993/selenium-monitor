@@ -111,6 +111,7 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 Собирает метрики из Pushgateway и хранит временной ряд для дальнейшего анализа.
 
 ![Prometheus](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/prometheus.png)
+![Prometheus](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/prometheus_2.png)
 
 ### Grafana
 
@@ -280,6 +281,8 @@ synthetic_step_success{step="..."}
 ```
 
 `1` означает успешное выполнение шага, `0` — ошибку.
+
+![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_metrics.png)
 
 ---
 
