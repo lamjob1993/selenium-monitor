@@ -5,7 +5,6 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-# Chromium + ChromeDriver
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         chromium \
