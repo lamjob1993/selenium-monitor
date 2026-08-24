@@ -233,6 +233,8 @@ Cleanup не входит в `N0`.
 
 В проекте используются четыре семейства Prometheus-метрик.
 
+![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_metrics.png)
+
 ### Общая длительность транзакции
 
 ```text
@@ -282,8 +284,6 @@ synthetic_step_success{step="..."}
 ```
 
 `1` означает успешное выполнение шага, `0` — ошибку.
-
-![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_metrics.png)
 
 ---
 
