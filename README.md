@@ -119,6 +119,8 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 
 Объединяет компоненты в единый проект и обеспечивает запуск сервисов одной командой.
 
+![Docker Compose](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/docker-compose.png)
+
 ---
 
 ## 5. Структура проекта
