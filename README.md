@@ -85,8 +85,6 @@
 
 Selenium работает с Chromium в headless-режиме, поэтому отдельное графическое окно браузера для работы мониторинга не требуется.
 
-![Selenium и Python](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/selenium%2Bpython.png)
-
 ### Chromium
 
 Браузер, которым управляет Selenium внутри контейнера. Используется реальный браузерный движок, поэтому проверяются не только HTTP-ответы, но и фактическое состояние пользовательского интерфейса.
@@ -96,6 +94,8 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 `monitor.py` содержит сценарий проверки, логику ожидания элементов, обработку ошибок и формирование Prometheus-метрик.
 
 После выполнения одного запуска браузер закрывается. Следующий запуск начинается с нового экземпляра Chromium.
+
+![Selenium и Python](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/selenium%2Bpython.png)
 
 ### Pushgateway
 
