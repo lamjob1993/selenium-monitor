@@ -447,6 +447,8 @@ Waiting 300 seconds before next check...
 
 При проблемах с веб-приложением соответствующий шаг получает `FAILED`, а в Grafana появляется увеличение длительности либо отсутствие успешного выполнения шага.
 
+![Docker Container Log](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/container_logs.png)
+
 ---
 
 ## 15. Результат выполнения работы
