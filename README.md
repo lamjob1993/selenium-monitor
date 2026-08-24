@@ -118,6 +118,7 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 Используется для визуализации результатов. Основной график показывает общую длительность транзакции и длительность отдельных шагов в одной временной шкале.
 
 ![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_dashboard.png)
+![Grafana JSON](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_json.png)
 
 ### Docker Compose
 
