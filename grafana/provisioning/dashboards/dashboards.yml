@@ -1,0 +1,13 @@
+apiVersion: 1
+
+providers:
+  - name: WeaveSocks
+    orgId: 1
+    folder: WeaveSocks
+    type: file
+    disableDeletion: false
+    editable: true
+    updateIntervalSeconds: 10
+    allowUiUpdates: true
+    options:
+      path: /var/lib/grafana/dashboards
