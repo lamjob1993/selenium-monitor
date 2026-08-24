@@ -103,13 +103,14 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 
 Использование Pushgateway связано с тем, что проверка является периодическим batch-сценарием: Python запускает тест, получает результат и передает его в Pushgateway.
 
-![Pushgateway](screenshots/pushgateway.png)
+![Pushgateway](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/pushgateway.png)
+![Pushgateway](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/pushgateway_2.png)
 
 ### Prometheus
 
 Собирает метрики из Pushgateway и хранит временной ряд для дальнейшего анализа.
 
-![Prometheus](screenshots/prometheus.png)
+![Prometheus](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/prometheus.png)
 
 ### Grafana
 
