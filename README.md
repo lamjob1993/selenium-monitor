@@ -85,7 +85,7 @@
 
 Selenium работает с Chromium в headless-режиме, поэтому отдельное графическое окно браузера для работы мониторинга не требуется.
 
-![Selenium и Python](screenshots/selenium-python.png)
+![Selenium и Python](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/selenium%2Bpython.png)
 
 ### Chromium
 
