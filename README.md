@@ -116,6 +116,8 @@ Selenium работает с Chromium в headless-режиме, поэтому �
 
 Используется для визуализации результатов. Основной график показывает общую длительность транзакции и длительность отдельных шагов в одной временной шкале.
 
+![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_dashboard.png)
+
 ### Docker Compose
 
 Объединяет компоненты в единый проект и обеспечивает запуск сервисов одной командой.
@@ -320,8 +322,6 @@ synthetic_step_success{step="..."}
 - `logout`.
 
 Они относятся к завершающей части сценария и не входят в `N0`.
-
-![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_dashboard.png)
 
 ---
 
