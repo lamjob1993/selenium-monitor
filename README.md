@@ -318,7 +318,7 @@ synthetic_step_success{step="..."}
 
 Они относятся к завершающей части сценария и не входят в `N0`.
 
-![Grafana Dashboard](screenshots/grafana-dashboard.png)
+![Grafana Dashboard](https://github.com/lamjob1993/selenium-monitor/blob/main/screenshots/grafana_dashboard.png)
 
 ---
 
